@@ -14,8 +14,8 @@ alias s="rspec"
 
 #CLI Tools
 alias tclock="tty-clock -c -t"
-docker-compose="dc"
-docker-machine="dm"
+alias dc="docker-compose"
+alias dm="docker-machine"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
