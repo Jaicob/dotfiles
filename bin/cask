@@ -1,0 +1,8 @@
+brew update
+brew cask update
+brew cask install sublime-text
+brew cask install dockertoolbox
+docker-machine create --driver virtual box dev
+eval "$(docker-machine env dev)”
+brew install wget
+brew install tty-clock
