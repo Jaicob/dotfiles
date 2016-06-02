@@ -16,6 +16,11 @@ alias s="rspec"
 alias tclock="tty-clock -c -t"
 alias dc="docker-compose"
 alias dm="docker-machine"
+alias cdandroid= "cd /Users/Jaicob/Library/Android/sdk"
+alias dshell="docker exec -it webapp_web_1 /bin/bash"
+
+#Other
+alias axon="cd ~/Development/Axon/web-app"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
